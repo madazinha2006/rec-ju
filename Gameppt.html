@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Jogo Pedra, Papel e Tesoura - Dois Jogadores</title>
+</head>
+<body>
+    <h1>Pedra, Papel e Tesoura - Dois Jogadores</h1>
+
+    <h2>Jogador 1</h2>
+    <div class="escolha">
+        <button class="click" onclick="jogar('pedra', 1)">Pedra</button>
+        <button class="click" onclick="jogar('papel', 1)">Papel</button>
+        <button class="click" onclick="jogar('tesoura', 1)">Tesoura</button>
+    </div>
+
+    <h2>Jogador 2</h2>
+    <div class="escolha">
+        <button class="click" onclick="jogar('pedra', 2)">Pedra</button>
+        <button class="click" onclick="jogar('papel', 2)">Papel</button>
+        <button class="click" onclick="jogar('tesoura', 2)">Tesoura</button>
+    </div>
+
+    <div class="resultado" id="result"></div>
+
+    <script src="js/gamef.js"></script>
+</body>
+</html>

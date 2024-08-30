@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    background-color: rgb(204, 210, 177);
+}
+
+h1{
+    margin-top: 20px;
+
+}
+
+.click:hover{
+    background-color: rgb(174, 152, 40);
+
+}
+ .click{
+
+    font-size: 30px;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    background-color: darkslateblue;
+    color:white;
+    border-radius: 5px;
+    cursor: pointer;
+
+ }
+ .resultado{
+     font-size: 35px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+    
+ }
